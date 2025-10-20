@@ -4,5 +4,5 @@ fn main() {
     let oranges = 14 + 6;
     let _fruits = apple + oranges;
 
-    println!("my garden has {} apples and , {} oranges . witch in sum is {0}" , apple , oranges );
+    println!("my garden has {} apples and , {} oranges " , apple , oranges );
 }
