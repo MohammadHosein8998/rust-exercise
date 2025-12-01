@@ -1,0 +1,430 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch",
+            "program": "${workspaceFolder}/<program>",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Debug executable 'dataType1'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=dataType1"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'dataType1'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=dataType1"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'function2'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=function2"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'function2'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=function2"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'function3'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=function3"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'function3'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=function3"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'function4'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=function4"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'function4'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=function4"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'rust-exercise'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=rust-exercise"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'rust-exercise'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=rust-exercise"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'statment'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=statment"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'statment'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=statment"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'statment1'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=statment1"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'statment1'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=statment1"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'statment2'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=statment2"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'statment2'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=statment2"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'statment3'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=statment3"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'statment3'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=statment3"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'variables1'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=variables1"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'variables1'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=variables1"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'variables2'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=variables2"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'variables2'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=variables2"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'variables3'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=variables3"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'variables3'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=variables3"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'variables4'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=variables4"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'variables4'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=variables4"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'variables5'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=variables5"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'variables5'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=variables5"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'variables6'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=variables6"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'variables6'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=variables6"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'variables7'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=variables7"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'variables7'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=variables7"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'variables8'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=variables8"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'variables8'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=variables8"
+                ]
+            }
+        },
+        {
+            "name": "Debug executable 'variables9'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "run",
+                    "--bin=variables9"
+                ]
+            },
+            "args": []
+        },
+        {
+            "name": "Debug unit tests in executable 'variables9'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--bin=variables9"
+                ]
+            }
+        }
+    ]
+}
